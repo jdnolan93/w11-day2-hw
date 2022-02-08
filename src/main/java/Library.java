@@ -11,4 +11,7 @@ public class Library {
     }
 
 
+    public int getBookCount() {
+       return this.shelf.size();
+    }
 }
