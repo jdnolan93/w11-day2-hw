@@ -7,7 +7,7 @@ public class Library {
 
     public Library(){
         this.shelf = new ArrayList<>();
-        this.capacity = 5;
+        this.capacity = 3;
     }
 
 
