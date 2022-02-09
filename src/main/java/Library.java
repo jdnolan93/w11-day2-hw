@@ -18,4 +18,8 @@ public class Library {
     public void addBook(Book book) {
         this.shelf.add(book);
     }
+
+    public int getCapacity() {
+        return this.capacity;
+    }
 }
