@@ -16,6 +16,7 @@ public class Library {
     }
 
     public void addBook(Book book) {
+        if (this.shelf.size() < this.capacity)
         this.shelf.add(book);
     }
 
